@@ -1,0 +1,60 @@
+# Aliases
+## kubernetes
+alias k=kubectl
+alias kns=kubens
+alias kctx=kubectx
+
+## misc.
+alias s="subl"
+
+# Functions
+## task-warrior
+job-add() {
+  task add project:Boulot "$@"
+}
+job-list() {
+  task list project:Boulot
+}
+job-list-done() {
+  task end:today project:Boulot completed
+}
+job-copy-done() {
+  task TodayJobDone | tail -n +4 | head -n -2 | sed s/^/">- "/ | copy
+}
+
+## docker
+docker-rm() {
+	docker stop "$@"
+	docker rm "$@"
+}
+docker-rm-select() {
+	containers=$(docker ps | rofi -dmenu -multi-select | awk '{print $1}')
+	docker stop "$containers"
+	docker rm "$containers"
+}
+
+## copy&paste
+copy() {
+	xclip -sel clip "$1"
+}
+
+pasta() {
+	xclip -o -sel clip
+}
+
+## misc.
+screencast() {
+	python ~/screen-cast.py "$1"
+}
+chiptune() {
+	xmp -R --loop-all /media/knarfux/ExtraDrive1/Download/chip/*
+}
+nu() {
+	sudo n "$(cat .nvmrc)"
+}
+pass() {
+	tr -dc 'a-zA-Z0-9[:punct:]' < /dev/urandom | head -c 22
+}
+w() {
+	watch -n1 $1
+}
