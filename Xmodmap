@@ -1,0 +1,7 @@
+keycode 108 = Mode_switch
+keysym a = a A Left 
+keysym d = d D Right
+keysym w = w W Up
+keysym s = s S Down
+keysym e = e E End
+keysym q = q Q Home

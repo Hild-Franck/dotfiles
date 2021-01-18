@@ -1,0 +1,146 @@
+[global_config]
+  always_split_with_profile = True
+  borderless = True
+  broadcast_default = off
+  enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  handle_size = 20
+  inactive_color_offset = 1.0
+  suppress_multiple_term_dialog = True
+  title_font = Droid Sans Mono for Powerline Bold 9
+  title_inactive_bg_color = "#ea00d9"
+  title_inactive_fg_color = "#0d0f31"
+  title_receive_bg_color = "#0d0f31"
+  title_transmit_bg_color = "#46bdff"
+  title_transmit_fg_color = "#0d0f31"
+  title_use_system_font = False
+  window_state = hidden
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = Tomorrow Night Eighties
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[Sigfox]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 85e54be8-4352-4f69-916c-cfd00a03db73
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 1979:0
+      size = 1861, 1056
+      title = ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 265
+      ratio = 0.252140818268
+      type = VPaned
+    [[[child11]]]
+      order = 1
+      parent = child9
+      position = 1008
+      ratio = 0.543103448276
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 133
+      ratio = 0.511538461538
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 261
+      ratio = 0.332484076433
+      type = VPaned
+    [[[child6]]]
+      order = 0
+      parent = child5
+      position = 128
+      ratio = 0.5
+      type = VPaned
+    [[[child9]]]
+      order = 1
+      parent = child5
+      position = 73
+      ratio = 0.139579349904
+      type = VPaned
+    [[[terminal10]]]
+      order = 0
+      parent = child9
+      profile = Tomorrow Night Eighties
+      type = Terminal
+      uuid = dda56e9e-72db-4aed-b2ab-14c754a8a08d
+    [[[terminal12]]]
+      order = 0
+      parent = child11
+      profile = Tomorrow Night Eighties
+      type = Terminal
+      uuid = fc35d368-8b40-4a15-b808-b55bc10455ed
+    [[[terminal13]]]
+      order = 1
+      parent = child11
+      profile = Tomorrow Night Eighties
+      type = Terminal
+      uuid = c3845af1-0f03-4c0c-ac81-20d2054124dc
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = Tomorrow Night Eighties
+      type = Terminal
+      uuid = b5058dfd-e760-4a7b-a3ab-990ac6d9d992
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = Tomorrow Night Eighties
+      type = Terminal
+      uuid = 076cae9e-78c4-4085-b1f2-36dd3d88c44b
+    [[[terminal7]]]
+      order = 0
+      parent = child6
+      profile = Tomorrow Night Eighties
+      type = Terminal
+      uuid = 85e54be8-4352-4f69-916c-cfd00a03db73
+    [[[terminal8]]]
+      order = 1
+      parent = child6
+      profile = Tomorrow Night Eighties
+      type = Terminal
+      uuid = e62ccd37-3d68-4fdc-bf8c-af9276a3bf3b
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_darkness = 0.44
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#839496"
+    font = Droid Sans Mono for Powerline Bold 10
+    foreground_color = "#839496"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scroll_background = False
+    use_system_font = False
+  [[Nouveau profil]]
+    background_darkness = 0.0
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Roboto Mono Medium for Powerline Bold Italic 10
+    use_system_font = False
+  [[Tomorrow Night Eighties]]
+    background_color = "#0d0f31"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#cccccc"
+    font = Droid Sans Mono for Powerline Bold 10
+    foreground_color = "#eeeeec"
+    palette = "#000000:#f2777a:#99cc99:#ffcc66:#46bdff:#df81fc:#66cccc:#ffffff:#000000:#f2777a:#99cc99:#ffcc66:#46bdff:#df81fc:#66cccc:#ffffff"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
