@@ -1,0 +1,68 @@
+{
+  "window.zoomLevel": 3,
+  "vscode_custom_css.imports": [
+    "file:///home/knarfux/synthwave84.css"
+  ],
+  "workbench.colorTheme": "1984 - Fancy",
+  "editor.rulers": [
+    80
+  ],
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#5b2e69"
+  },
+  "editor.minimap.enabled": false,
+  "workbench.editor.showTabs": false,
+  "zenMode.fullScreen": false,
+  "editor.folding": false,
+  "editor.glyphMargin": false,
+  "editor.fontSize": 10,
+  "files.hotExit": "off",
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "workbench.activityBar.visible": false,
+  "glsllint.glslangValidatorPath": "/usr/local/bin/glslang/bin/glslangValidator",
+  "powermode.enabled": true,
+  "powermode.enableStatusBarComboCounter": true,
+  "powermode.presets": "exploding-rift",
+  "[elixir]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.wordBasedSuggestions": false,
+    "editor.formatOnType": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.trimAutoWhitespace": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": true,
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "python.pythonPath": "/usr/bin/python3.7",
+  "python.linting.pycodestyleEnabled": true,
+  "python.linting.pylintArgs": [
+    "--enable=F,E,W,R,C",
+    "--extension-pkg-whitelist=pygame",
+    "--disable=C0116"
+  ],
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "all",
+  "workbench.statusBar.visible": true,
+  "window.menuBarVisibility": "toggle",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "todo-tree.tree.showScanModeButton": false,
+  "glassit.alpha": 195,
+  "glassit.step": 20,
+  "files.associations": {
+    ".zsh_aliases": "shellscript"
+  },
+  "spellright.language": [
+    "French"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex"
+  ]
+}
